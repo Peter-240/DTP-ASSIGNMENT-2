@@ -1,0 +1,5 @@
+sentence = input("Enter a sentence: ")
+words = sentence.split()
+print(words[:3])
+print(words[-2:])
+print(words[::-1])
